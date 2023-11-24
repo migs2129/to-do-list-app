@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff;
+}
+header{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2.5% 0 1.5% 0;
+    background-color: #C2A27F;
+    color: #5F432C;
+    font-weight: bolder;
+    letter-spacing: 1.9px;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+form input[type="text"]{
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+    padding: 0.8%;
+    border-radius: 5px;
+    border: 1px solid #5F432C;
+    width: 30%;
+    color: #000;
+    margin-top: 2.5%;
+}
+
+form input[type="button"] {
+    font-size: 1rem;
+    padding: 1%;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    background-color: #8C5F41;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+form input[type="button"]:hover{
+    background-color: #fff;
+    color: #8C5F41;
+    font-weight: bold;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+/* #newtask{
+    display: flex;
+}
+
+#newtask_input{
+    flex: 1 1 0%;
+    margin-left: 1rem;
+} */
+
+#tasks .task{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C2A27F;
+    border-radius: 5px;
+    margin: 1.5%;
+}
+.actions button{
+    font-size: 1rem;
+    margin: 10% 0 10% 0;
+    background-color: #8C5F41;
+    border: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.actions button:hover{
+    background-color: #fff;
+    color: #8C5F41;
+}
+#tasks .task .content .text{
+    color: #000;
+    font-size: 1.2rem;
+    margin: 2%;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    font-weight: bolder;
+}
