@@ -1,4 +1,5 @@
-document.addEventListener("load", function () {
+
+document.addEventListener("DOMContentLoaded", function () {
     // Get the form and task list elements
     const form = document.getElementById("newtask");
     const taskList = document.getElementById("tasks");
