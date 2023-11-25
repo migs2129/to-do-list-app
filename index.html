@@ -7,29 +7,33 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ef0eb13a1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="src/icon.png">
 </head>
 <body>
     <header>
         To-Do List
         <form id="newtask">
             <input type="text" id="newtask_input" placeholder="Write your plans here...">
-            <input type="button" id="newtask_submit"value="Add Task">
+            <input type="submit" id="newtask_submit"value="Add Task">
         </form>
     </header>
     <main>
         <section class="task-list">
-            <h2>Tasks To-Do</h2>
-            <div id="tasks">
-                <div class="task">
+            <h2>Tasks To-Do:</h2>
+            <div id="tasks" class="task-list fade-slide-in">
+                <!-- <div class="task">
                     <div class="content">
                         <input type="text" class="text" value="Task to do" readonly>
                     </div>
                     <div class="actions">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
+                        <button class="edit"><i class="fa-solid fa-pen-to-square"></i>Edit</button>
+                        <button class="delete"><i class="fa-solid fa-trash""></i> Delete</button>
                     </div>
-                </div>
+                </div> -->
             </div>
+            <!--Di nagana nothing to do, sir 😭-->
+            <div id="no-tasks-message">Nothing to do. For now... ☕</div>
         </section>
     </main>
     <script src="main.js"></script>
