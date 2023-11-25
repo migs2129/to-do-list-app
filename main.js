@@ -1,5 +1,4 @@
-//recycle ko lang po ito sir, galing sa internet. Salamat.
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("load", function () {
     // Get the form and task list elements
     const form = document.getElementById("newtask");
     const taskList = document.getElementById("tasks");
